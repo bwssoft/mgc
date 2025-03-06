@@ -1,7 +1,5 @@
 "use client";
 
-import { useState } from "react";
-import { Dialog, DialogPanel } from "@headlessui/react";
 import {
   BuildingOffice2Icon,
   UserGroupIcon,
@@ -14,19 +12,18 @@ import {
   DocumentChartBarIcon,
   CodeBracketIcon,
   BellIcon,
-  XMarkIcon,
   CloudArrowUpIcon,
   LockClosedIcon,
   ArrowPathIcon,
   FingerPrintIcon,
 } from "@heroicons/react/24/outline";
 
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-];
+// const navigation = [
+//   { name: "Product", href: "#" },
+//   { name: "Features", href: "#" },
+//   { name: "Marketplace", href: "#" },
+//   { name: "Company", href: "#" },
+// ];
 const features = [
   {
     name: "Push to deploy",
@@ -199,7 +196,7 @@ const applications = [
 // };
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <div className="bg-white">
@@ -212,7 +209,7 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img alt="" src="/logo/MGC.svg" className="h-8 w-auto" />
+              <img alt="" src="/logo/MGC.svg" className="h-12 w-auto" />
             </a>
           </div>
           {/* <div className="flex lg:hidden">
@@ -242,7 +239,7 @@ export default function Example() {
             </a>
           </div> */}
         </nav>
-        <Dialog
+        {/* <Dialog
           open={mobileMenuOpen}
           onClose={setMobileMenuOpen}
           className="lg:hidden"
@@ -287,7 +284,7 @@ export default function Example() {
               </div>
             </div>
           </DialogPanel>
-        </Dialog>
+        </Dialog> */}
       </header>
 
       <main className="isolate">
@@ -309,7 +306,7 @@ export default function Example() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
               <div className="mx-auto max-w-2xl text-center">
                 <h1 className="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
-                  MGC Technology
+                  MGC TECNOLOGIA
                 </h1>
                 <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
@@ -697,7 +694,11 @@ export default function Example() {
       <footer className="relative mx-auto mt-32 max-w-7xl px-6 lg:px-8">
         <div className="border-t border-gray-900/10 py-16 sm:py-24 lg:py-32">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-            <img alt="Company name" src="/logo/MGC.svg" className="h-9" />
+            <img
+              alt="Company name"
+              src="/logo/MGC.svg"
+              className="h-12 w-auto"
+            />
             {/* <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
