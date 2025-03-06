@@ -3,11 +3,22 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
+  BuildingOffice2Icon,
+  UserGroupIcon,
+  Cog6ToothIcon,
+  CreditCardIcon,
+  ChatBubbleBottomCenterTextIcon,
+  ChatBubbleOvalLeftEllipsisIcon,
+  ExclamationCircleIcon,
+  ArrowsRightLeftIcon,
+  DocumentChartBarIcon,
+  CodeBracketIcon,
+  BellIcon,
   XMarkIcon,
+  CloudArrowUpIcon,
+  LockClosedIcon,
+  ArrowPathIcon,
+  FingerPrintIcon,
 } from "@heroicons/react/24/outline";
 
 const navigation = [
@@ -96,6 +107,70 @@ const faqs = [
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
   // More questions...
+];
+
+const applications = [
+  // Plataformas Web
+  {
+    name: "ERP Web",
+    description:
+      "Sistema de gestão integrada para a empresa (em desenvolvimento).",
+    icon: BuildingOffice2Icon,
+  },
+  {
+    name: "CRM Web",
+    description: "Sistema de gestão de clientes para a empresa.",
+    icon: UserGroupIcon,
+  },
+  {
+    name: "Plataforma de Configuração de Equipamentos",
+    description:
+      "Interface para configuração de dispositivos via comunicação serial.",
+    icon: Cog6ToothIcon,
+  },
+  // Microserviços
+  {
+    name: "Microserviço de Pagamentos",
+    description: "Integração com o Banco do Brasil para geração de pagamentos.",
+    icon: CreditCardIcon,
+  },
+  {
+    name: "Microserviço de Comunicação",
+    description:
+      "Envio de mensagens no WhatsApp via API da Meta e envio de e-mails.",
+    icon: ChatBubbleBottomCenterTextIcon,
+  },
+  {
+    name: "Microserviço de Chat",
+    description: "Geração e gerenciamento de conversas em tempo real.",
+    icon: ChatBubbleOvalLeftEllipsisIcon,
+  },
+  {
+    name: "Microserviço Detecção de alertas",
+    description:
+      "Monitora eventos em tempo real e identifica alertas com base em regras pré-cadastradas.",
+    icon: ExclamationCircleIcon,
+  },
+  {
+    name: "Microserviço de Tratamento e Distribuição de pacotes",
+    description: "Processa e roteia pacotes de dados entre sistemas.",
+    icon: ArrowsRightLeftIcon,
+  },
+  {
+    name: "Microserviço de Geração de relatórios",
+    description: "Agrega e formata dados para relatórios personalizados.",
+    icon: DocumentChartBarIcon,
+  },
+  {
+    name: "Microserviço de Envio de comandos",
+    description: "Gera e transmite comandos para dispositivos IoT.",
+    icon: CodeBracketIcon,
+  },
+  {
+    name: "Microserviço de Notificação em tempo real",
+    description: "Notifica os sistemas em tempo real.",
+    icon: BellIcon,
+  },
 ];
 const footerNavigation = {
   solutions: [
@@ -533,6 +608,37 @@ export default function Example() {
                 <dd className="mt-4 lg:col-span-7 lg:mt-0">
                   <p className="text-base/7 text-gray-600">{faq.answer}</p>
                 </dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+
+        {/* Lista de Aplicações MGC */}
+        <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-base/7 font-semibold text-pink-400">
+              Lista de Aplicações MGC
+            </h2>
+            <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+              Nossas Soluções
+            </p>
+            <p className="mt-6 text-lg/8 text-gray-600">
+              Conheça a variedade de aplicações desenvolvidas para atender as
+              demandas de mobilidade, desktop, componentes e presença
+              institucional.
+            </p>
+          </div>
+          <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base/7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
+            {applications.map((app) => (
+              <div key={app.name} className="relative pl-9">
+                <dt className="inline font-semibold text-gray-900">
+                  <app.icon
+                    aria-hidden="true"
+                    className="absolute left-1 top-1 size-5 text-pink-500"
+                  />
+                  {app.name}
+                </dt>{" "}
+                <dd className="inline">{app.description}</dd>
               </div>
             ))}
           </dl>
