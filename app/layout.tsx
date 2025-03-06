@@ -22,6 +22,14 @@ export const metadata: Metadata = {
     siteName: "MGC Tecnologia",
     url: "https://www.mgctecnologia.com",
     type: "website",
+    images: [
+      {
+        url: "https://www.mgctecnologia.com/logo/metadata-icon.png",
+        width: 512,
+        height: 512,
+        alt: "MGC Tecnologia Logo",
+      },
+    ],
   },
 };
 
