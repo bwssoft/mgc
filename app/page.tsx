@@ -172,31 +172,31 @@ const applications = [
     icon: BellIcon,
   },
 ];
-const footerNavigation = {
-  solutions: [
-    { name: "Hosting", href: "#" },
-    { name: "Data services", href: "#" },
-    { name: "Uptime monitoring", href: "#" },
-    { name: "Enterprise services", href: "#" },
-    { name: "Analytics", href: "#" },
-  ],
-  support: [
-    { name: "Submit ticket", href: "#" },
-    { name: "Documentation", href: "#" },
-    { name: "Guides", href: "#" },
-  ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-  ],
-  legal: [
-    { name: "Terms of service", href: "#" },
-    { name: "Privacy policy", href: "#" },
-    { name: "License", href: "#" },
-  ],
-};
+// const footerNavigation = {
+//   solutions: [
+//     { name: "Hosting", href: "#" },
+//     { name: "Data services", href: "#" },
+//     { name: "Uptime monitoring", href: "#" },
+//     { name: "Enterprise services", href: "#" },
+//     { name: "Analytics", href: "#" },
+//   ],
+//   support: [
+//     { name: "Submit ticket", href: "#" },
+//     { name: "Documentation", href: "#" },
+//     { name: "Guides", href: "#" },
+//   ],
+//   company: [
+//     { name: "About", href: "#" },
+//     { name: "Blog", href: "#" },
+//     { name: "Jobs", href: "#" },
+//     { name: "Press", href: "#" },
+//   ],
+//   legal: [
+//     { name: "Terms of service", href: "#" },
+//     { name: "Privacy policy", href: "#" },
+//     { name: "License", href: "#" },
+//   ],
+// };
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -698,7 +698,7 @@ export default function Example() {
         <div className="border-t border-gray-900/10 py-16 sm:py-24 lg:py-32">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <img alt="Company name" src="/logo/MGC.svg" className="h-9" />
-            <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+            {/* <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
                   <h3 className="text-sm/6 font-semibold text-gray-900">
@@ -771,7 +771,7 @@ export default function Example() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
