@@ -7,15 +7,12 @@ import {
   CreditCardIcon,
   ChatBubbleBottomCenterTextIcon,
   ChatBubbleOvalLeftEllipsisIcon,
-  ExclamationCircleIcon,
-  ArrowsRightLeftIcon,
   DocumentChartBarIcon,
-  CodeBracketIcon,
-  BellIcon,
   CloudArrowUpIcon,
   LockClosedIcon,
   ArrowPathIcon,
   FingerPrintIcon,
+  ComputerDesktopIcon,
 } from "@heroicons/react/24/outline";
 
 // const navigation = [
@@ -125,6 +122,12 @@ const applications = [
       "Interface para configuração de dispositivos via comunicação serial.",
     icon: Cog6ToothIcon,
   },
+  {
+    name: "Plataforma de Geração de PIX",
+    description:
+      "Uso interno para criação e gerenciamento de pagamentos via PIX.",
+    icon: ComputerDesktopIcon,
+  },
   // Microserviços
   {
     name: "Microserviço de Pagamentos",
@@ -143,30 +146,9 @@ const applications = [
     icon: ChatBubbleOvalLeftEllipsisIcon,
   },
   {
-    name: "Microserviço Detecção de alertas",
-    description:
-      "Monitora eventos em tempo real e identifica alertas com base em regras pré-cadastradas.",
-    icon: ExclamationCircleIcon,
-  },
-  {
-    name: "Microserviço de Tratamento e Distribuição de pacotes",
-    description: "Processa e roteia pacotes de dados entre sistemas.",
-    icon: ArrowsRightLeftIcon,
-  },
-  {
     name: "Microserviço de Geração de relatórios",
     description: "Agrega e formata dados para relatórios personalizados.",
     icon: DocumentChartBarIcon,
-  },
-  {
-    name: "Microserviço de Envio de comandos",
-    description: "Gera e transmite comandos para dispositivos IoT.",
-    icon: CodeBracketIcon,
-  },
-  {
-    name: "Microserviço de Notificação em tempo real",
-    description: "Notifica os sistemas em tempo real.",
-    icon: BellIcon,
   },
 ];
 // const footerNavigation = {
