@@ -23,27 +23,27 @@ import {
 // ];
 const features = [
   {
-    name: "Push to deploy",
+    name: "Implantação Ágil",
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "Aproveite uma infraestrutura moderna e flexível que permite a rápida implantação de novas soluções, garantindo escalabilidade e eficiência.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "SSL certificates",
+    name: "Segurança Avançada",
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+      "Nossa arquitetura é projetada para garantir proteção de dados e comunicação segura, utilizando padrões robustos de criptografia.",
     icon: LockClosedIcon,
   },
   {
-    name: "Simple queues",
+    name: "Arquitetura Modular",
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      "Soluções baseadas em microserviços que oferecem flexibilidade, permitindo integrações eficientes e maior controle sobre os processos.",
     icon: ArrowPathIcon,
   },
   {
-    name: "Advanced security",
+    name: "Gestão Inteligente de Dados",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+      "Sistemas projetados para otimizar a coleta, processamento e análise de informações estratégicas.",
     icon: FingerPrintIcon,
   },
 ];
@@ -93,15 +93,15 @@ const features = [
 //     mostPopular: false,
 //   },
 // ];
-const faqs = [
-  {
-    id: 1,
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  // More questions...
-];
+// const faqs = [
+//   {
+//     id: 1,
+//     question: "What's the best thing about Switzerland?",
+//     answer:
+//       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+//   },
+//   // More questions...
+// ];
 
 const applications = [
   // Plataformas Web
@@ -291,9 +291,9 @@ export default function Example() {
                   MGC TECNOLOGIA
                 </h1>
                 <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat.
+                  Nossa experiência em desenvolvimento de software assegura
+                  soluções integradas, escaláveis e seguras, otimizando cada
+                  operação do nosso ecossistema.
                 </p>
                 {/* <div className="mt-10 flex items-center justify-center gap-x-6">
                   <a
@@ -391,15 +391,15 @@ export default function Example() {
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-56 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-base/7 font-semibold text-pink-600">
-              Deploy faster
+              Tecnologia para Crescimento
             </h2>
             <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
-              Everything you need to deploy your app
+              Inovação e eficiência no desenvolvimento de software
             </p>
             <p className="mt-6 text-pretty text-lg/8 text-gray-600">
-              Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-              Suspendisse eget egestas a elementum pulvinar et feugiat blandit
-              at. In mi viverra elit nunc.
+              Desenvolvemos soluções inovadoras e seguras para impulsionar a
+              gestão e a automação de processos, atendendo às necessidades
+              internas com eficiência e tecnologia de ponta.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -576,7 +576,7 @@ export default function Example() {
         </div> */}
 
         {/* FAQs */}
-        <div className="mx-auto max-w-2xl px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
+        {/* <div className="mx-auto max-w-2xl px-6 pb-8 sm:pb-24 sm:pt-12 lg:max-w-7xl lg:px-8 lg:pb-32">
           <h2 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
             Frequently asked questions
           </h2>
@@ -595,7 +595,7 @@ export default function Example() {
               </div>
             ))}
           </dl>
-        </div>
+        </div> */}
 
         {/* Lista de Aplicações MGC */}
         <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-20 md:mt-24 lg:px-8">
@@ -644,11 +644,13 @@ export default function Example() {
           </div>
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
-              Boost your productivity. Start using our app today.
+              Conectando inovação ao nosso negócio
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">
-              Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-              anim id veniam aliqua proident excepteur commodo do ea.
+              A MGC Tecnologia é responsável pelo desenvolvimento de softwares
+              internos que otimizam a gestão e automação de processos da nossa
+              empresa. Com tecnologia de ponta, garantimos soluções seguras,
+              escaláveis e adaptadas às necessidades do mercado de rastreamento.
             </p>
             {/* <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
