@@ -458,24 +458,29 @@ export default function Example() {
               />
             </div>
             <div className="relative mx-auto max-w-2xl lg:mx-0">
-              <img
+              {/* <img
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/workcation-logo-white.svg"
                 className="h-12 w-auto"
-              />
+              /> */}
               <figure>
                 <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl/8">
                   <p>
-                    “Amet amet eget scelerisque tellus sit neque faucibus non
-                    eleifend. Integer eu praesent at a. Ornare arcu gravida
-                    natoque erat et cursus tortor consequat at. Vulputate
-                    gravida sociis enim nullam ultricies habitant malesuada
-                    lorem ac.”
+                    “Depois que começamos a comprar o equipamento E3+ da BWS,
+                    tivemos uma grande melhoria e agilidade nas recuperações de
+                    veículos em nossa operação de rastreamento, o equipamento
+                    funciona perfeitamente e atende nossas expectativas em
+                    relação ao rastreamento veicular, redundância via SMS e
+                    diversos outros benéﬁcos. Indico a todos que querem
+                    qualidade e custo-benefício a utilizar os equipamentos da
+                    BWS.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 text-base text-white">
-                  <div className="font-semibold">Judith Black</div>
-                  <div className="mt-1">CEO of Tuple</div>
+                  <div className="font-semibold">Marlon Corrado dos Santos</div>
+                  <div className="mt-1">
+                    CEO & founder of SmithSeg Rastreamento
+                  </div>
                 </figcaption>
               </figure>
             </div>
